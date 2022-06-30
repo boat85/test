@@ -10,3 +10,5 @@ def showdata(request):
 def showdatafs(re):
   return HttpResponse('I have not my freinds ')
 
+def testfun(r):
+  return HttpResponse('I want you')
